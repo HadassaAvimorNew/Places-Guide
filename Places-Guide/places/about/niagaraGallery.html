@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>גלרייה מפלי הניאגרה</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #005f69;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #005f69;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: auto;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: #007c8c;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background-color: #005f69;
+        }
+
+    </style>
+</head>
+<body dir="rtl">
+
+<header>
+    <h1>מפלי הניאגרה - גלרייה</h1>
+</header>
+
+<main>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/2.jpg" alt="מפלי ניאגרה 1">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/1.jpg" alt="מפלי ניאגרה 3">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/3.jpg" alt="מפלי ניאגרה 4">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/4.jpg"  alt="מפלי ניאגרה 5">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/5.webp"  alt="מפלי ניאגרה 6">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/6.jpg"  alt="מפלי ניאגרה 6">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/7.jpg"  alt="מפלי ניאגרה 6">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/8.jpg"  alt="מפלי ניאגרה 6">
+        </div>
+        <div class="gallery-item">
+            <img src="../assets/images/niagara/9.jpg"  alt="מפלי ניאגרה 6">
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 STYLE (css) - GPT 👌</p>
+</footer>
+
+</body>
+</html>
