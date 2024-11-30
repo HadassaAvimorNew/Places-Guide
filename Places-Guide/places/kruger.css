@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+h1, h2 { 
+    text-align: center;  /* ממרכז את כל הכותרות */
+    color: #e74c3c; /* שומר על הצבע האדום לכותרת הראשית */
+}
+h2 {
+    color: #378a1e; /* שינוי צבע לכותרות המשנה */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #378a1e;
+    color: white;
+    text-align: center;
+}
